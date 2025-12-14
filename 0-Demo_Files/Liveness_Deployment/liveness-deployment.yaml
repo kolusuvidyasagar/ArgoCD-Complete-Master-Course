@@ -19,7 +19,7 @@ spec:
         - /server
         livenessProbe:
           httpGet:
-            path: /healthz
+            path: /health
             port: 8080
             httpHeaders:
             - name: Custom-Header
